@@ -1,0 +1,23 @@
+<main>
+    <div class="ad">
+        <input type="button" value="-" (click)="decrementa()" class="bomenos">
+        <input type="text" [value]="valor">
+        <input type="button" value="+" (click)="incrementa()" class="bomais">
+    </div>
+
+    <br>
+
+    <div class="ac">
+        <label>nome:
+            <input type="text" [(ngModel)]="nome">
+        </label>
+        <p>meu nome é:{{nome}}</p>
+
+        <label>valor:
+            <input type="text" [(ngModel)]="alor">
+        </label>
+        <p>o valor é {{parouimpar(alor)}}</p>
+    </div>
+
+
+</main>

@@ -1,0 +1,22 @@
+.ad{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    margin-top: 20%;
+
+
+}
+.ac{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bomais{
+    background-color:green ;
+}
+
+.bomenos{
+   background-color: red;
+}
